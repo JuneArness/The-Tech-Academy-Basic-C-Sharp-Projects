@@ -1,0 +1,7 @@
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\obj\Debug\VeriablesAndDataTypes.csproj.AssemblyReference.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\obj\Debug\VeriablesAndDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\bin\Debug\VeriablesAndDataTypes.exe.config
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\bin\Debug\VeriablesAndDataTypes.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\bin\Debug\VeriablesAndDataTypes.pdb
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\obj\Debug\VeriablesAndDataTypes.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\VeriablesAndDataTypes\VeriablesAndDataTypes\obj\Debug\VeriablesAndDataTypes.pdb
