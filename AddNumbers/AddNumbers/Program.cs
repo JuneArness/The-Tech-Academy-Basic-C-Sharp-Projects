@@ -19,8 +19,8 @@ namespace AddNumbers
 
             // Addition
             Console.WriteLine(" Enter Your Number Here:");
-            UInt16 Y = (byte)Convert.ToInt16(Console.ReadLine());
-            Console.WriteLine("your number added to 25 is: " +  Y + 25);
+            int Y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("your number added to 25 is: " + ( Y + 25));
 
 
             Console.WriteLine();
@@ -34,7 +34,8 @@ namespace AddNumbers
 
             // Boolean
             Console.WriteLine(" Enter Your Number Here:");
-            bool  trueOrFalse = Convert.ToString(Console.ReadLine());
+            int Num = Convert.ToInt32(Console.ReadLine());
+            bool  trueOrFalse = Num > 50 ;
             Console.Write(trueOrFalse.ToString());
             Console.ReadLine();
 
@@ -42,8 +43,10 @@ namespace AddNumbers
 
             //Remainder
             Console.WriteLine(" Enter Your Number Here:");
-            ulong P = Convert.ToInt64(Console.ReadLine());
-            Console.WriteLine("your number devided by 12.5 is: " + P % 7);
+            int P = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The remainder of your number devided by 12.5 is: " + P % 12.5);
+
+            Console.ReadLine();
 
 
 
