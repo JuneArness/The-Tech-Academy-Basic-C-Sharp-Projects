@@ -1,0 +1,7 @@
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\bin\Debug\AddNumbers.exe.config
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\bin\Debug\AddNumbers.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\bin\Debug\AddNumbers.pdb
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\obj\Debug\AddNumbers.csproj.AssemblyReference.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\obj\Debug\AddNumbers.csproj.CoreCompileInputs.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\obj\Debug\AddNumbers.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AddNumbers\AddNumbers\obj\Debug\AddNumbers.pdb
