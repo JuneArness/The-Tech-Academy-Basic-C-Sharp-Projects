@@ -1,0 +1,15 @@
+﻿using System;
+
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Welcome to ACME Accounting Systems");
+        Console.WriteLine("Remember, we're \"accounting\" on you!");
+        Console.ReadLine();
+        string doubleQoutes = "The use of double qoutes\" \"is necessary";
+
+    }
+}
+
