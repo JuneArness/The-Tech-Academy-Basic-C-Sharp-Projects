@@ -1,0 +1,7 @@
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\bin\Debug\BooloeanLogic.exe.config
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\bin\Debug\BooloeanLogic.exe
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\bin\Debug\BooloeanLogic.pdb
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\obj\Debug\BooloeanLogic.csproj.AssemblyReference.cache
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\obj\Debug\BooloeanLogic.csproj.CoreCompileInputs.cache
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\obj\Debug\BooloeanLogic.exe
+C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\obj\Debug\BooloeanLogic.pdb
