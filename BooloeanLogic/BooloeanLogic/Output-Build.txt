@@ -1,0 +1,4 @@
+﻿Build started...
+1>------ Build started: Project: BooloeanLogic, Configuration: Debug Any CPU ------
+1>C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\App.config : error MSB3249: Application Configuration file "App.config" is invalid. Could not find file 'C:\Users\junio\source\repos\BooloeanLogic\BooloeanLogic\App.config'.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
