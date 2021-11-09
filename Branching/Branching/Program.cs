@@ -15,21 +15,18 @@ namespace Branching
 
             //Header line
             Console.WriteLine("Welcome to Package Express. Please follow the intructions below:");
-            string name = Console.ReadLine();
+            
 
             // User shold be able to input package weight
             Console.WriteLine("What is the pachage weight?");
             int packageWeight = Convert.ToInt32(Console.ReadLine());
 
-            if (packageWeight <= weightLimit)
-            {
-                Console.WriteLine("What is the package weight");
-            }
-            else if (packageWeight > weightLimit)
+            if (packageWeight > weightLimit)
             {
                 Console.WriteLine("The Package is too heavy to be shipped via Package Express. Have a good day.");
+                
             }
-            
+            else
 
             {
                 Console.WriteLine("What is the pachage width?");
@@ -41,13 +38,31 @@ namespace Branching
                 Console.WriteLine("What is the package height?");
                 int packageheight = Convert.ToInt32(Console.ReadLine());
 
-                string comparisonReult = packageWidth + packageLength + packageheight > 50 ?: ("Package too big to be shipped via Package Express.");
+                int sumOFDem = packageWidth + packageLength + packageheight;
 
+                if (sumOFDem > 50)
+                {
+                    Console.WriteLine("Package too big to be shipped via Package Express.");
+                   
+                }
 
-                // User should be given a quote here
-                int packageQuote = ((packageWidth * packageLength * packageheight) * packageWieght) / 100;
-                Console.WriteLine("Package Qoute:" + packageQuote);
-                Console.ReadLine();
+                else
+                {
+                    // User should be given a quote here
+                    int packageQuote = packageWidth * packageLength * packageheight * packageWeight / 100;
+                    Console.WriteLine("You're estimated total for shipping this package is:" + packageQuote);
+                      
+                }
+
+                Console.WriteLine("Thank You");
+                
+                //string comparisonReult = packageWidth + packageLength + packageheight > 50 ?: ("Package too big to be shipped via Package Express.");
+
+            
+                //// User should be given a quote here
+                ////int packageQuote = ((packageWidth * packageLength * packageheight) * packageWeight) / 100;
+                //Console.WriteLine("Package Qoute:" + packageQuote);
+                //Console.ReadLine();
             }
            
             Console.ReadLine();
