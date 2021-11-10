@@ -1,0 +1,7 @@
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\bin\Debug\styringProject.exe.config
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\bin\Debug\styringProject.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\bin\Debug\styringProject.pdb
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\obj\Debug\styringProject.csproj.AssemblyReference.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\obj\Debug\styringProject.csproj.CoreCompileInputs.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\obj\Debug\styringProject.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\styringProject\styringProject\obj\Debug\styringProject.pdb

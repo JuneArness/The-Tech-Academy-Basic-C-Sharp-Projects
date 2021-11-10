@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "styringProject", "styringProject\styringProject.csproj", "{ECA7B1CF-86FD-4BF0-8A15-C01B4022D2A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECA7B1CF-86FD-4BF0-8A15-C01B4022D2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA7B1CF-86FD-4BF0-8A15-C01B4022D2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA7B1CF-86FD-4BF0-8A15-C01B4022D2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA7B1CF-86FD-4BF0-8A15-C01B4022D2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1757B692-0075-4249-9B8F-9709F8C8F40B}
+	EndGlobalSection
+EndGlobal
