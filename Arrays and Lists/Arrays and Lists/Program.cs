@@ -9,65 +9,112 @@ class Program
     static void Main()
 
         
-    {       // This is async list of strings
+    {       // This is a list of strings fro the user to select from:
+        Console.WriteLine("Chose from the index of lists:");
         List<string> intList = new List<string>();
-        intList.Add("Hello");
-        intList.Add("June");
-        intList.Remove("Arness");
-        Console.WriteLine(intList[0]);
+        intList.Add ("Red0");
+        intList.Add ("Blue1");
+        intList.Add ("Yellow2");
+        intList.Add ("Purple3");
+        intList.Add ("Green4");
+        intList.Add ("Orange5");
+
+        Console.WriteLine("Select a number between 1 and 6");
+        int stringSelect = Convert.ToInt32(Console.ReadLine());
+        
+
+
+        //// This is a one-demsional array of strings: 
+        
+        List<string> strArray = new List<string>();
+        strArray.Add("Earth0");
+        strArray.Add("Fire1");
+        strArray.Add("Water2");
+        strArray.Add("Sun3");
+        strArray.Add("Wind4");
+        strArray.Add("Moon5");
+        Console.WriteLine("Chose an index: 0| 1| 2| 3| 4 5| 6|");
+        int intSelect = Convert.ToInt32(Console.ReadLine());
+       
 
 
 
-        // This is a one-demsional array of strings: 
-        int[] stringArray = new int[5];
-        stringArray[0] = 5;
-        stringArray[1] = 2;
-        stringArray[2] = 10;
-        stringArray[3] = 200;
-        stringArray[4] = 5000;
 
-        int[] stringArray1 = new int[] { 5, 2, 10, 200, 5000, 600, 2300 };
-
-        int[] stringArray2 = { 5, 2, 10, 200, 5000, 600, 2300 };
-
-        stringArray2[5] = 650;
+        Console.WriteLine();
+        Console.WriteLine();
 
 
-        Console.WriteLine(stringArray2[5]);
+        //// This is a one-demsional array of integers: 
+
+        List<string> intArray = new List<string>();
+        intArray.Add("Happy1");
+        intArray.Add("Sad");
+        intArray.Add("Angry");
+        intArray.Add("Confused");
+        intArray.Add("Excited");
+        intArray.Add("Intgrigued");
+        Console.WriteLine("Chose an index: 0| 1| 2| 3| 4 5| 6|");
+        int intergerSelect = Convert.ToInt32(Console.ReadLine());
+       
 
 
-        // This is a one-demsional array of integers: 
-        int[] intArray = new int[5];
-        intArray[0] = 5;
-        intArray[1] = 2;
-        intArray[2] = 10;
-        intArray[3] = 200;
-        intArray[4] = 5000;
-
-        int[] intArray1 = new int[] { 5, 2, 10, 200, 5000, 600, 2300 };
-
-        int[] intArrayy2 = { 5, 2, 10, 200, 5000, 600, 2300 };
-
-        intArray2[3] = 10;
+        Console.WriteLine();
+        Console.WriteLine();
 
 
-        Console.WriteLine(intArray2[3]);
 
 
-            // This is an if statement that will let the user know if they have selected a index that is included
-        if (false)
+        //// This is an while statement that will let the user know if they have selected a index that is included
+        // I am using a catch and block statement here 
+
+        if (stringSelect <= 6)
         {
-            Console.WriteLine("You have selected a invalid index. Try again");
+            Console.WriteLine("You have selected " + strArray[stringSelect - 1]);
+        }
+
+        else
+        {
+            Console.WriteLine("Sorry, that number selection is invalid. Select a number between 1 and 6");
 
         }
 
-       
+        // Try catch for String Array
+
+
+        if (intSelect <= 6)
+        {
+            Console.WriteLine("You have selected " + intList[intSelect - 1]);
+        }
+
+        else
+        {
+            Console.WriteLine("Sorry, that number selection is invalid. Select a number between 1 and 6");
+
+        }
+
+        
+
+        // Try catch for int Array
+
+        if (intergerSelect <= 6)
+        {
+            Console.WriteLine("You have selected " + intArray[intergerSelect - 1]);
+        }
+
+        else
+        {
+            Console.WriteLine("Sorry, that number selection is invalid. Select a number between 1 and 6");
+
+        }
+
+     
+
         Console.ReadLine();
 
        
 
             
-        }
+       
 
     }
 }
