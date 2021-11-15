@@ -1,0 +1,7 @@
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\bin\Debug\Itteration.exe.config
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\bin\Debug\Itteration.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\bin\Debug\Itteration.pdb
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\obj\Debug\Itteration.csproj.AssemblyReference.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\obj\Debug\Itteration.csproj.CoreCompileInputs.cache
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\obj\Debug\Itteration.exe
+C:\Users\junio\OneDrive\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Itteration\Itteration\obj\Debug\Itteration.pdb
