@@ -1,0 +1,7 @@
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\bin\Debug\execeptions.exe.config
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\bin\Debug\execeptions.exe
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\bin\Debug\execeptions.pdb
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\obj\Debug\execeptions.csproj.AssemblyReference.cache
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\obj\Debug\execeptions.csproj.CoreCompileInputs.cache
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\obj\Debug\execeptions.exe
+C:\Users\junio\OneDrive\Documents\GitHub\execeptions\execeptions\obj\Debug\execeptions.pdb
