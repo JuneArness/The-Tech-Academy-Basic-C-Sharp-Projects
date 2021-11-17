@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 
 namespace execeptions
 {
@@ -16,21 +16,18 @@ namespace execeptions
             list.Add(73);
             list.Add(24);
             list.Add(65);
-            Console.WriteLine("Chose from 55, 45, 55, 65, 73, 24, 65");
-            int userInput = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter any number to divide by:");
+           
 
 
             try
             {
-
-                Console.WriteLine("Pick a number.");
-                int numberOne = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Pick a second number.");
-                int numberTwo = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Divide the two....");
-                int numberThree = numberOne / numberTwo;
-                Console.WriteLine(numberOne + "divided by" + numberTwo + "equals" + numberThree);
-                Console.ReadLine();
+                int userInput = Convert.ToInt32(Console.ReadLine());
+                foreach (int num in list)
+                {
+                    Console.WriteLine(num / userInput);
+                }
+               
             }
             catch (FormatException ex)
             {
