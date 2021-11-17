@@ -6,9 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        string score01 = "Win";
-        string score02 = "Lose";
-        string score03 = "Draw";
+        string[] scores = new string[3];
+        scores[0] = "1";
+        scores[1] = "2";
+        scores[2] = "3";
 
 
 
@@ -16,101 +17,93 @@ class Program
         Console.WriteLine("What is your score? Input Win, Lose or Draw:");
         string playerScore = Console.ReadLine();
 
-        string[] scores = new string[3];
-        scores[0] = "Win";
-        scores[1] = "Lose";
-        scores[2] = "Draw";
-
-        Console.WriteLine("" + playerScore);
-
-        foreach (string score in scores) 
+      
+        for (int i = 0; i < scores.Length; i++)
         {
-            Console.WriteLine();
-        }
-
-        foreach (string score in scores)
-        {
-            Console.WriteLine(playerScore);
+            scores[i] += playerScore;
+            Console.WriteLine(scores[i]);
         }
 
 
+        Console.ReadLine();
 
-        // --------
-        int num02 = 0;
 
-        while (num02 == 0)
-        {
-            Console.WriteLine(num02 == 0);
-            break;
-        }
+        //// --------
+        //int num02 = 0;
+
+        //while (num02 == 0)
+        //{
+        //    Console.WriteLine(num02 == 0);
+        //    break;
+        //}
 
 
 
         //-------
         int num03 = 0;
 
-        while (num03 < 10)
+        while (num03 < 5)
         {
             Console.WriteLine("the number is less than ten");
-            break;
+            num03++;
         }
 
         int num04 = 0;
 
-        while (num04 <= 10)
+        while (num04 <= 5)
         {
             Console.WriteLine("The number is less than or equals to ten");
-            break;
-        } 
+            num04++;
+        }
 
 
-        //--------
+        ////--------
 
-        List<int> list = new List<int>();
-        list.Add(55);
-        list.Add(45);
-        list.Add(55);
-        list.Add(65);
-        list.Add(73);
-        list.Add(24);
-        list.Add(65);
+        List<string> lists = new List<string>();
+        lists.Add ("55");
+        lists.Add ("45");
+        lists.Add ("55");
+        lists.Add ("65");
+        lists.Add ("73");
+        lists.Add ("24");
+        lists.Add ("65");
         Console.WriteLine("Chose from 55, 45, 55, 65, 73, 24, 65");
-        int userInput = Convert.ToInt32(Console.ReadLine());
+        string userInput = (Console.ReadLine());
 
-        
-        foreach (int a in list)
+
+        foreach (string list in lists)
         {
             if (list.Contains(userInput))
             {
                 Console.WriteLine("The input has been found");
                 int index = list.IndexOf(userInput);
                 Console.WriteLine("number: " + userInput + " " + "index: " + index);
-                
+
             }
             else
             {
                 Console.WriteLine("The input has not been found");
-                
+
             }
             break;
         }
 
-        //-----
+        ////-----
 
 
-        List<int> x = new List<int>();
-        x[0] = (00);
-        x[1] = (01);
-        x[2] = (02);
-        x[3] = (03);
-        x[4] = (04);
-        x[5] = (05);
+        List<string> pick = new List<string>();
+        pick.Add  ("00");
+        pick.Add  ("01");
+        pick.Add  ("02");
+        pick.Add  ("03");
+        pick.Add  ("04");
+        pick.Add  ("05");
 
         Console.WriteLine("Chose from 01, 01, 02, 03, 04, 05");
-        int numSelect = Convert.ToInt32(Console.ReadLine());
+        string numSelect = (Console.ReadLine());
 
 
-        foreach (int a in x)
+            foreach (string list in pick)
         {
             if (list.Contains(numSelect))
             {
@@ -127,20 +120,20 @@ class Program
             break;
         }
 
+        //-------------
 
-
-        List<int> year = new List<int>();
-        year.Add(64);
-        year.Add(70);
-        year.Add(79);
-        year.Add(96);
-        year.Add(00);
+        List<string> year = new List<string>();
+        year.Add("64");
+        year.Add("70");
+        year.Add("79");
+        year.Add("96");
+        year.Add("00");
 
         Console.WriteLine("What is your favorite year of the Chevy Impala? Chose from '64, '70, '79, '96, '00");
-        int chevyImpala = Convert.ToInt32(Console.ReadLine());
+        string chevyImpala = (Console.ReadLine());
 
 
-        foreach (int a in year)
+        foreach (string list in year)
         {
             if (list.Contains(chevyImpala))
             {
@@ -158,7 +151,7 @@ class Program
         }
 
 
-
+        Console.ReadLine();
 
     }
 }
