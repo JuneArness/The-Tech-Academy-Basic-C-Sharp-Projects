@@ -73,10 +73,10 @@ class Program
 
         foreach (string list in lists)
         {
-            if (list.Contains(userInput))
+            if (lists.Contains(userInput))
             {
                 Console.WriteLine("The input has been found");
-                int index = list.IndexOf(userInput);
+                int index = lists.IndexOf(userInput);
                 Console.WriteLine("number: " + userInput + " " + "index: " + index);
 
             }
@@ -85,7 +85,7 @@ class Program
                 Console.WriteLine("The input has not been found");
 
             }
-            break;
+            
         }
 
         ////-----
@@ -105,10 +105,10 @@ class Program
 
             foreach (string list in pick)
         {
-            if (list.Contains(numSelect))
+            if (pick.Contains(numSelect))
             {
                 Console.WriteLine("The input has been found");
-                int append = list.IndexOf(numSelect);
+                int append = pick.IndexOf(numSelect);
                 Console.WriteLine("number: " + numSelect + " " + "append: " + append);
 
             }
@@ -124,7 +124,7 @@ class Program
 
         List<string> year = new List<string>();
         year.Add("64");
-        year.Add("70");
+        year.Add("64");
         year.Add("79");
         year.Add("96");
         year.Add("00");
@@ -135,10 +135,10 @@ class Program
 
         foreach (string list in year)
         {
-            if (list.Contains(chevyImpala))
+            if (year.Contains(chevyImpala))
             {
                 Console.WriteLine("The input has been found");
-                int classes = list.IndexOf(chevyImpala);
+                int classes = year.IndexOf(chevyImpala);
                 Console.WriteLine("number: " + chevyImpala + " " + "append: " + classes);
 
             }
