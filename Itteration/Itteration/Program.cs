@@ -129,25 +129,20 @@ class Program
         year.Add("96");
         year.Add("00");
 
-        Console.WriteLine("What is your favorite year of the Chevy Impala? Chose from '64, '70, '79, '96, '00");
-        string chevyImpala = (Console.ReadLine());
+        List<string> yearCopy = new List<string>();
 
 
-        foreach (string list in year)
+        foreach (string element in year)
         {
-            if (year.Contains(chevyImpala))
+            if (yearCopy.Contains(element))
             {
-                Console.WriteLine("The input has been found");
-                int classes = year.IndexOf(chevyImpala);
-                Console.WriteLine("number: " + chevyImpala + " " + "append: " + classes);
-
+                Console.WriteLine(element + "has appeared before");
             }
             else
             {
-                Console.WriteLine("The input has not been found");
-
+                Console.WriteLine(element + "Has not appered before");
             }
-            break;
+            yearCopy.Add(element);
         }
 
 
