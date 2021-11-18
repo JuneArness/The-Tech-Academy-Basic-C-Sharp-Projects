@@ -17,6 +17,16 @@ namespace method
             return x + 5;
         }
 
+        public int Adding(int y)
+        {
+            return y + 10;
+        }
+
+        public int Added(int z)
+        {
+            return z + 20;
+        }
+
 
     }
 }

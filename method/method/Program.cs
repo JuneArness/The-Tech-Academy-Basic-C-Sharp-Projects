@@ -10,11 +10,22 @@ namespace method
     {
         static void Main(string[] args)
         {
+
+            // gathering the user input to apply to math equation 
             Math math = new Math();
-            int num1 = 3;
-           Console.WriteLine(math.Addition(num1));
-          
-           Console.ReadLine();
+            Console.WriteLine("What number would you like to add to 5?");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(math.Addition(num1));
+
+            Console.WriteLine("What number would you like to add to 10?");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(math.Adding(num2));
+
+            Console.WriteLine("What number would you like to add to 20?");
+            int num3 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(math.Added(num3));
+
+            Console.ReadLine();
         }
     }
 }
