@@ -8,17 +8,13 @@ namespace MethodAssignment_2
 {
     class Pong
     {
-        public static int Comparing(int num1, int num2=7)
+        public int Action(int num1)
         {
-            int x = num1 + num2;
+            int x = num1 ;
             return x;
         }
 
-       
+
 
     }
 }
-
-
-
-

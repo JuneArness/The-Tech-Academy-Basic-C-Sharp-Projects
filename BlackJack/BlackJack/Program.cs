@@ -16,7 +16,10 @@ namespace BlackJack
             // Allows program to create a deck of cards without having to input
             // Each card manually
             Deck deck = new Deck();
-            deck = Shuffle(deck);
+
+            int timesShuffled = 0;
+            deck.Shuffle(3);
+
 
             foreach (Card card in deck.Cards)
             {
@@ -24,22 +27,19 @@ namespace BlackJack
             }
 
             Console.WriteLine(deck.Cards.Count);
+            Console.WriteLine("Times shuffled: {0}", timesShuffled);
             Console.ReadLine();
         }
-        public static Deck Shuffle(Deck deck)
-        {
-            List<Card> TempList = new List<Card>();
-            Random random = new Random();
+       
+        }
 
-            while (deck.Cards.Count > 0)
-            {
-                int randomIndex = random.Next(0, deck.Cards.Count);
-                TempList.Add(deck.Cards[randomIndex]);
-                deck.Cards.RemoveAt(randomIndex);
-            }
-            deck.Cards = TempList;
-            return deck;
-
+        //public static Deck Shuffle(Deck deck, int times)
+        //{
+        //    for (int i= 0; i < times; i++)
+        //    {
+        //        deck = Shuffle(deck);
+        //    }
+        //    return deck;
         }
     }
 }
